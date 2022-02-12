@@ -99,6 +99,7 @@ body {
     background-color: rgba(0, 149, 246, .3);
     color: #ffffff;
     width: 100%;
+    transition: 0.5s;
 }
 
 .texto {
@@ -193,6 +194,30 @@ body {
 
 .group-buttons img {
     height: 40px;
+}
+
+
+/* hover */
+
+.button-form:hover {
+    cursor: pointer;
+    background-color: #0095f2;
+}
+
+.facebook-link:hover {
+    color: #0000e9;
+}
+
+.forget:hover {
+    color: lightgrey;
+}
+
+.link-cadastrar:hover {
+    color: darkblue;
+}
+
+.dowload img:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 1024px) {
