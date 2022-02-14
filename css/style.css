@@ -20,7 +20,8 @@ body {
 .instagram-wraper {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+    max-width: 935px;
     width: 60%;
     height: 100vh;
 }
@@ -43,7 +44,8 @@ body {
     justify-content: space-around;
     /* vertica */
     flex-direction: column;
-    width: 50%;
+    width: 50%;    
+    max-width: 350px;
     min-height: 34rem;
 }
 
