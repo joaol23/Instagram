@@ -20,7 +20,7 @@ body {
 .instagram-wraper {
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     max-width: 935px;
     width: 60%;
     height: 100vh;
@@ -34,7 +34,7 @@ body {
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 35rem;
 }
 
 .instagram-form {
@@ -44,7 +44,7 @@ body {
     justify-content: space-around;
     /* vertica */
     flex-direction: column;
-    width: 50%;    
+    width: 50%;
     max-width: 350px;
     min-height: 34rem;
 }
@@ -180,6 +180,8 @@ body {
 
 .link-cadastrar {
     text-decoration: none;
+    transition: 0.5s;
+    font-weight: 600;
     color: #0095f2;
 }
 
@@ -197,6 +199,43 @@ body {
 
 .group-buttons img {
     height: 40px;
+}
+
+
+/* New Page */
+
+.profile-photo {
+    width: 10rem;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.continue-button {
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgb(70, 172, 255);
+    border: 1px lightgrey solid;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.not-right-account {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.change-account {
+    color: #0095f2;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.dowload img {
+    transition: 0.5s;
 }
 
 
@@ -220,8 +259,22 @@ body {
 }
 
 .dowload img:hover {
+    height: 45px;
     cursor: pointer;
+    box-shadow: 2px 2px 5px 2px rgb(160, 160, 160);
 }
+
+.continue-button:hover {
+    cursor: pointer;
+    background-color: #0095f2;
+}
+
+.change-account:hover {
+    color: darkblue;
+}
+
+
+/* media */
 
 @media (max-width: 1024px) {
     .instagram-wraper {
