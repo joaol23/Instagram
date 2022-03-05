@@ -8,14 +8,15 @@
     <title>Instagram</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./imgs/instagram.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="instagram-wraper">
         <div class="instagram-phone">
-            <img src=./imgs/instagram-phone.png " alt="celular " />
+            <img src="./imgs/instagram-phone-teste.png " alt="celular " />
         </div>
-        <div class="instagram-form ">
+        <div class="instagram-form change-page first-page" id="second-page">
             <div class="group ">
                 <img class="instagram-logo " src="./imgs/logo-instagram.png " alt="logo Instagrams ">
                 <div class="form ">
@@ -23,7 +24,7 @@
                         <input class="input-form " type="text " placeholder="Telefone, nome de usuário ou email " />
                         <input class="input-form " type="text " placeholder="Senha " />
                         <button class="button-form ">Entrar</button>
-                    </form> 
+                    </form>
                 </div>
                 <div class="texto ">
                     <div class="texto-block ">
@@ -35,7 +36,7 @@
                 <div class="links ">
                     <div class="facebook-block ">
                         <img class="facebook " src="./imgs/facebook_logo.png.crdownload " alt="Facebook ">
-                        <a class="facebook-link " href="# ">Entrar com Facebook</a>    
+                        <a class="facebook-link " href="# ">Entrar com Facebook</a>
                     </div>
                     <a class="forget " href="# ">Esqueceu a senha?</a>
                 </div>
@@ -53,8 +54,33 @@
                 </div>
             </div>
         </div>
+        <div class="instagram-form change-page second-page" id="first-page" style="display: none; ">
+            <div class="group ">
+                <img class="instagram-logo " src="./imgs/logo-instagram.png " alt="logo Instagrams ">
+                <img class="profile-photo " src="./imgs/cat.jpeg " alt="Perfil ">
+                <div class="links ">
+                    <div class="facebook-block ">
+                        <button class="continue-button " href="# ">Continuar como gatonildo_123</button>
+                    </div>
+                    <span class="not-right-account " href="# ">Não é gatonildo_123?<a class="change-account " href="# "> Trocar de conta</a></span>
+                </div>
+            </div>
+            <div class="group cadastrar ">
+                <p class="texto-cadastrar ">
+                    <a href="# " class="link-cadastrar ">Trocar de conta</a> ou <a href="# " class="link-cadastrar ">Cadastre-se</a>
+                </p>
+            </div>
+            <div class="group-buttons ">
+                <p class="get-app ">Obtenha o aplicativo</p>
+                <div class="dowload ">
+                    <img src="./imgs/app-store.png " alt="App Store ">
+                    <img src="./imgs/play-store.png " alt="Play Store ">
+                </div>
+            </div>
+        </div>
     </div>
 
+    <script src="./js/geral.js"></script>
 </body>
 
 </html>
